@@ -12,7 +12,6 @@
 
         stage('Test') {
             steps {
-                sh 'docker load -i website.tar.gz'
                 sh 'docker run -p 8000:8000 -v /Users/rajeshtokala/Documents/Git/Mkdocs/website.tar.gz:/dev/stdin rajesh-gitlab/toyota-project:latest serve'
             }
             when {
