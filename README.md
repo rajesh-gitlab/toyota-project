@@ -3,7 +3,7 @@
 ## Usage
 
 1. Build the Docker image:
-docker build -t rajesh-gitlab/mkdocs-docker:latest .
+docker build -t rajesh-gitlab/toyota-project:latest .
 
 2. Produce the website:
 docker run -v /Users/rajeshtokala/Documents/Git/Mkdocs:/app rajesh-gitlab/toyota-project:latest produce
